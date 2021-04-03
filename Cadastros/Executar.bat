@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk-16\bin\java.exe" -jar --module-path "C:\Program Files\Java\javafx-sdk-16\lib" --add-modules javafx.controls,javafx.graphics,javafx.base,javafx.swt,javafx.swing,javafx.web,javafx.fxml,javafx.media "D:\Java\Projetos\Cadastros\dist".\Cadastros.jar
