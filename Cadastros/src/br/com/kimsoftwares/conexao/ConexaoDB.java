@@ -15,11 +15,11 @@ public class ConexaoDB {
         String conector = "jdbc";
         String bancodedados = "mysql";
         String ip = "127.0.0.1";
-        String porta = "3309";
+        String porta = "3300";
         String nomedobanco = "dbcadastros";
         String usuario = "root";
-        //String senha = "E@j#l$g%23071977";
-        String senha = "chk5368wja";
+        //String senha = "0000000000000000";
+        String senha = "00000";
         String url = conector + ":" + bancodedados + "://" + ip + ":" + porta + "/" + nomedobanco;
 
         try {
