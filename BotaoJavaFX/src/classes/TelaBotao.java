@@ -19,7 +19,7 @@ public class TelaBotao extends Application {
         Scene scene = new Scene(root);                                                //coloca o fxml em uma cena
         stage.setResizable(false);                                                   //desabilita maximizar      
         stage.getIcons().add(new Image("imagens/usuarios.png"));                    //carrega imagem e muda o icone padrão da tela login
-        stage.setTitle("Teste de Botao dentro de um timer");                       //Coloca o titulo na janela
+        stage.setTitle("Mudar setText do Botao dentro de um timer");               //Coloca o titulo na janela
         stage.setScene(scene);                                                    //coloca a sena em uma janela
         stage.show();                                                            // abre a janela
     }
