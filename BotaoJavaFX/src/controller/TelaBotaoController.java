@@ -27,11 +27,16 @@ public class TelaBotaoController implements Initializable {
     
     @FXML
     private void clicouBotaoApagar(ActionEvent event) {
-        btnInfo.setText("");
+        new Contador(10);
     }
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
 
+    }
+    
+    public String limparbtnMensagem(String texto){
+        btnInfo.setText(texto);
+        return texto;
     }
 }
