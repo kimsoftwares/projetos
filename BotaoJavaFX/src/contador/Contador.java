@@ -12,14 +12,13 @@ public class Contador{
         timer = new Timer();
         timer.schedule(new RemindTask(), seconds*1000);
     }
-
+    
     class RemindTask extends TimerTask {
 
         @Override
         public void run() {
             limpar.limparbtnMensagem("");
             timer.cancel(); 
-        }
-        
+        }   
     }
 }    

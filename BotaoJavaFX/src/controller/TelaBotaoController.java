@@ -28,6 +28,7 @@ public class TelaBotaoController implements Initializable {
     @FXML
     private void clicouBotaoApagar(ActionEvent event) {
         new Contador(10);
+        //Esta retornando null
     }
 
     @Override
